@@ -8,16 +8,19 @@ void solve() {
 
     ll n; cin>>n;
 
-    ll i=1;
-    int cnt=0;
+    // ll i=1;
+    // int cnt=0;
 
-    while (i<=n){
+    // while (i<=n){
 
-        cnt++; n--; i++;
+    //     cnt++; n--; i++;
 
-    }
+    // }
 
-    cout<<cnt<<endl;
+    // cout<<cnt<<endl;
+
+    cout<<(n+1)/2<<endl; 
+    // this essentially does the same as the above while loop
 
 }
 
